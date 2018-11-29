@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <head-nav :now='now'></head-nav>
     <router-view/>
   </div>
 </template>
 
 <script>
+// import './assets/css/base.css'
+import headNav from './components/comon/headNav'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {headNav},
+  data(){
+    return {
+      now: 0
+    }
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
 </style>
