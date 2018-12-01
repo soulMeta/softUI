@@ -3,7 +3,7 @@
      <img src="../../assets/img/banner.jpg" class="i-banner">
      <div class="i-button">下载SOFT-UI</div>
      <img src="../../assets/img/i-jt.png" alt="" class="i-jt">
-    <embed src="../../../static/falsh/skk.swf" palette="white]white " width="700" height="300" hidden="no"/>
+    <embed class="flash" src="../../../static/falsh/skk.swf" palette="white]white " width="50%" height="300" hidden="no"/>
 </div>
 </template>
 
@@ -17,6 +17,9 @@ export default {
         }
     },
     mounted(){
+        $(".cat").animate({
+            right:240
+        },1000)
         let that=this
         $(".i-jt").click(function(){
             if(this.gotime!=null){
@@ -84,6 +87,18 @@ export default {
 </script>
 
 <style scoped>
+.cat{
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top:305px;
+    right: -400px;
+    opacity: .9;
+}
+.flash{
+    position: absolute;
+    left: 7%;
+}
 embed{
     position: absolute;
     top:475px;
@@ -114,7 +129,7 @@ embed{
     line-height: 50px;
     position: absolute;
     top: 590px;
-    left: 950px;
+    left: 70%;
     transition: 1.5s all;
 }
 .i-button:hover{
@@ -124,13 +139,13 @@ embed{
 }
 @keyframes play{
     0%{
-        top:790px
+        top:780px
     }
     50%{
-        top:800px
+        top:790px
     }
     100%{
-        top:790px
+        top:780px
     }
 }
 .box{

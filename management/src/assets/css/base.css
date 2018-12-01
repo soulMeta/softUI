@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*========样式重置========*/
+/*--------第一步 清样式 清间距----------*/
+body,h1,h2,h3,h4,h5,h6,p,a,img,form,input,select,figure,figcaption,ul,li,ol,dl,dt,dd,table,tr,th,td,thead,tbody,tfoot{margin: 0;padding: 0;}
+
+ul,ol{list-style-type: none;}
+
+input{outline: none;}
+i{font-style:normal;}
+body{padding:0;margin:0;}
+*{box-sizing:border-box;}
+
+/*---------定义全局样式-----------*/
+
+body{color:#333;font-family:"Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;}
+
+@media screen and (min-width:414px){
+    body{font-size:18px !important;}
+}
+@media screen and (min-width:375px) and (max-width:413px){
+    body{font-size:16px !important;}
+}
+@media screen and (max-width:374px){
+    body{font-size:14px !important;}
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;}
+
+
+
+/*---------定义公共样式----------*/
+a{text-decoration:none; cursor:pointer;}
+
+.l{float:left;}
+.r{float:right;}
+.w{max-width:1080px;margin: auto}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+	vertical-align:middle;
+}
+
+
+/*.box header{height:.85rem;}*/
+
+
+/* 隐藏滚动条 */
+/*main::-webkit-scrollbar {display: none;}*/
+
+
+/*====================footer===================*/

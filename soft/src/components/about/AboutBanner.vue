@@ -2,8 +2,8 @@
     <div class="banner">
           <div class="bannenr-container">
               <div class="text">
-                  <div>为会议主办方做最好用的管理系统</div>
-                  <div>为会议主办方做最好用的管理系统</div>
+                  <div>为猿类提供最简单最好用的UI组件</div>
+                  <div>softUI 轻便简洁您的必备</div>
               </div>
           </div>
     </div>
@@ -11,7 +11,7 @@
 
 <script>
     export default {
-        name: "AboutMain"
+        name: "AboutBanner"
     }
 </script>
 

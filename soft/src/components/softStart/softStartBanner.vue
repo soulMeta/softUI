@@ -1,7 +1,7 @@
 <template>
     <div class="softStartBanner">
       <h1>快速开始</h1>
-      <p>简单易用，轻量快捷，为移动端服务的前端框架</p>
+      <p>简单易用，轻量快捷，好玩的框架</p>
     </div>
 </template>
 

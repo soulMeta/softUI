@@ -2,7 +2,7 @@
   <div class="all w" >
     <div class="title">
           <span>
-              联系我们
+              地图
           </span>
     </div>
     <div class="content">
@@ -20,7 +20,7 @@
             </div>
             <div>
               <h3>地址</h3>
-              <p>深圳市宝安区新安街道创业二路259号219</p>
+              <p>西安市</p>
             </div>
             <div>
               <h3>公众号</h3>

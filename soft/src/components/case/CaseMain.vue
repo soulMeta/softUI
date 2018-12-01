@@ -9,7 +9,7 @@
         <h2>投稿</h2>
         <p class="case_last">你也用UIkit制作了很棒的作品吗？赶紧投稿给咱吧！</p>
         <p class="case_send">
-          <a href="#">发送邮件 </a>
+          <a href="https://mail.qq.com/cgi-bin/loginpage?autologin=n&errtype=1&clientuin=709799179&param=&sp=&tfcont=22%20serialization%3A%3Aarchive%205%200%200%204%200%200%200%208%20authtype%201%204%209%20clientuin%209%20709799179%206%20domain%206%20qq.com%202%20vm%203%20wsk&r=3b8edd33d388354bdf03f268b696b40d">发送邮件 </a>
         </p>
 
       </div>

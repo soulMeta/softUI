@@ -28,10 +28,10 @@
               <div>
                 <ul>
                   <li>联系方式</li>
-                  <li>总部：北京 朝阳区新安街道创业二路259号219</li>
+                  <li>总部：西安 南稍门中贸广场12号1404</li>
                   <li>分部：西安</li>
                   <li>电话：0888 - 2880 9888</li>
-                  <li>邮箱：ymyhr@event.cn</li>
+                  <li>邮箱：ymyhr@e vent.cn</li>
                 </ul>
               </div>
 
@@ -39,7 +39,7 @@
             <div class="border-line">
             </div>
             <div class="copy">
-                版权归 <span>办会家</span> 粤ICP备16059255
+                版权归 <span>SoftUI</span> 六小龄童组合
             </div>
         </div>
     </div>

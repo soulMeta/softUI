@@ -4,7 +4,7 @@
         <ul class="navlist">
             <router-link to='/' tag="li">首页</router-link>
             <router-link to='/softStart' tag="li">快速开始</router-link>
-            <router-link to='/#' tag="li">UI组件</router-link>
+            <router-link to='/element' tag="li">UI组件</router-link>
             <router-link to='/case' tag="li">案例展示</router-link>
             <router-link to='/##' tag="li">github</router-link>
             <router-link to='/about' tag="li">关于我们</router-link>
